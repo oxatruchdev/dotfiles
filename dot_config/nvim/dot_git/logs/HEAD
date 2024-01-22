@@ -1,0 +1,9 @@
+0000000000000000000000000000000000000000 d86a781a21bbbdbee99dc6e82eeb336f2f734cd1 Oscar <oscar@contadito.com> 1705121697 -0800	commit (initial): init?? not really
+d86a781a21bbbdbee99dc6e82eeb336f2f734cd1 f122c22ce299eec4e92b2f77eee1b8682727096a Oscar <oscar@contadito.com> 1705122251 -0800	commit: add dressing.lua plugin
+f122c22ce299eec4e92b2f77eee1b8682727096a d23b67f3626e5a5959997780ecfa76d9a8273aa4 Oscar <oscar@contadito.com> 1705122761 -0800	commit: add config to nvim-cmp
+d23b67f3626e5a5959997780ecfa76d9a8273aa4 27ca1645724da59703886b484bed117d0b77e4d1 Oscar <oscar@contadito.com> 1705124107 -0800	commit: add lsp config
+27ca1645724da59703886b484bed117d0b77e4d1 ecb31ab4512741690c26cdfc282a0fa5d5a091b5 Oscar <oscar@contadito.com> 1705125409 -0800	commit: add formatter
+ecb31ab4512741690c26cdfc282a0fa5d5a091b5 114d9f14f2a68cc51d16ba735bed68bf3ae73e12 Oscar <oscar@contadito.com> 1705125535 -0800	commit: format some files
+114d9f14f2a68cc51d16ba735bed68bf3ae73e12 7a70dc8b1ff7033910e743293ba0338e3316b6cc Oscar <oscar@contadito.com> 1705352799 -0800	commit: add linting
+7a70dc8b1ff7033910e743293ba0338e3316b6cc 866c649655502294775fedac6918433e7b329f66 Oscar <oscar@contadito.com> 1705530610 -0800	commit: add clang config
+866c649655502294775fedac6918433e7b329f66 491395959efc8350e9c593fe7aedb91b355a0773 Oscar <oscar@contadito.com> 1705813042 -0800	commit: add config for golang
