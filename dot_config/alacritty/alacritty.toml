@@ -1,0 +1,99 @@
+# Example Alacritty Configuration
+
+
+import = [
+  # uncomment the flavour you want below:
+  "~/.config/alacritty/catppuccin-mocha.toml"
+  # "~/.config/alacritty/catppuccin-macchiato.toml"
+  # "~/.config/alacritty/catppuccin-frappe.toml"
+  # "~/.config/alacritty/catppuccin-latte.toml"
+]
+
+[font]
+normal = { family = "MesloLGSNerdFont", style = "Regular"}
+
+# Font configuration
+# font:
+#   normal:
+#     family: DroidSansMNerdFont
+#     style: Regular
+#   bold:
+#     family: Monospace
+#     style: Bold
+#   italic:
+#     family: Monospace
+#     style: Italic
+#   bold_italic:
+#     family: Monospace
+#     style: Bold Italic
+
+# Size of the font
+# size: 14
+
+# Visual bell animation duration in milliseconds
+# bell_duration: 1000
+
+# Scrollback buffer size (in lines)
+# scrollback: 1000
+
+# Background color (RGB, 0-255)
+# background:
+#   r: 0
+#   g: 0
+#   b: 0
+
+# Foreground color (RGB, 0-255)
+# foreground:
+#   r: 255
+#   g: 255
+#   b: 255
+
+# Cursor configuration
+# cursor:
+#   style: Block
+#   unfocused_hollow: true
+
+# Colors
+# colors:
+#   # Default colors
+#   primary:
+#     background: '0x000000'
+#     foreground: '0xFFFFFF'
+
+#   # Normal colors
+#   normal:
+#     black: '0x000000'
+#     red: '0xFF0000'
+#     green: '0x00FF00'
+#     yellow: '0xFFFF00'
+#     blue: '0x0000FF'
+#     magenta: '0xFF00FF'
+#     cyan: '0x00FFFF'
+#     white: '0xFFFFFF'
+
+#   # Bright colors
+#   bright:
+#     black: '0x666666'
+#     red: '0xFF6666'
+#     green: '0x66FF66'
+#     yellow: '0xFFFF66'
+#     blue: '0x6666FF'
+#     magenta: '0xFF66FF'
+#     cyan: '0x66FFFF'
+#     white: '0xDDDDDD'
+
+# Keybindings
+# key_bindings:
+#   - { key: PageUp, mods: Control, action: ScrollPageUp }
+#   - { key: PageDown, mods: Control, action: ScrollPageDown }
+
+# Window options
+# window:
+#   dynamic_title: true
+#   padding:
+#     x: 4
+#     y: 4
+
+# Shell to execute (if not specified by command)
+# shell: /bin/bash
+
