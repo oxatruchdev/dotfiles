@@ -27,7 +27,7 @@ return {
     mason_lspconfig.setup({
       -- list of servers for mason to install
       ensure_installed = {
-        "tsserver",
+        "ts_ls",
         "html",
         "cssls",
         "tailwindcss",
@@ -41,6 +41,9 @@ return {
         "gopls",
         "templ",
         "terraformls",
+        "phpactor",
+        "csharp_ls",
+        "htmx",
       },
       -- auto-install configured servers (with lspconfig)
       automatic_installation = true, -- not the same as ensure_installed
@@ -58,6 +61,10 @@ return {
         "gofumpt",
         "golangci-lint",
         "templ",
+        "terraform-ls",
+        "tlint",
+        "php-cs-fixer",
+        "csharpier",
       },
     })
   end,

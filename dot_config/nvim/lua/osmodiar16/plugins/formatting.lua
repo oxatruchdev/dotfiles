@@ -22,7 +22,10 @@ return {
         python = { "isort", "black" },
         clang = { "clang-format" },
         go = { "gofumpt" },
-        templ = { "gofumpt" },
+        templ = { "templ" },
+        php = { "php-cs-fixer" },
+        cs = { "csharpier" },
+        terraform = { "terraform" },
       },
       format_on_save = {
         lsp_fallback = true,

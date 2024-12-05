@@ -79,7 +79,7 @@ return {
     })
 
     -- configure typescript server with plugin
-    lspconfig["tsserver"].setup({
+    lspconfig["ts_ls"].setup({
       capabilities = capabilities,
       on_attach = on_attach,
     })
@@ -171,15 +171,41 @@ return {
     lspconfig["gopls"].setup({
       capabilities = capabilities,
       on_attach = on_attach,
+      filetypes = { "go", "templ" },
     })
 
     -- Templ lsp
     lspconfig["templ"].setup({
       capabilities = capabilities,
       on_attach = on_attach,
+      filetypes = { "html", "templ" },
+    })
+
+    lspconfig["htmx"].setup({
+      capabilities = capabilities,
+      on_attach = on_attach,
+      filetypes = { "html", "templ" },
     })
 
     lspconfig["terraformls"].setup({
+      capabilities = capabilities,
+      on_attach = on_attach,
+    })
+
+    -- PHP lsp
+    lspconfig["phpactor"].setup({
+      capabilities = capabilities,
+      on_attach = on_attach,
+    })
+
+    -- C# lsp
+    lspconfig["csharp_ls"].setup({
+      capabilities = capabilities,
+      on_attach = on_attach,
+    })
+
+    -- Vue LSP
+    lspconfig["volar"].setup({
       capabilities = capabilities,
       on_attach = on_attach,
     })
