@@ -41,8 +41,6 @@ return {
         "gopls",
         "templ",
         "terraformls",
-        "phpactor",
-        "csharp_ls",
         "htmx",
       },
       -- auto-install configured servers (with lspconfig)
@@ -62,9 +60,6 @@ return {
         "golangci-lint",
         "templ",
         "terraform-ls",
-        "tlint",
-        "php-cs-fixer",
-        "csharpier",
       },
     })
   end,

@@ -1,6 +1,7 @@
 # Example Alacritty Configuration
 
 
+[general]
 import = [
   # uncomment the flavour you want below:
   "~/.config/alacritty/catppuccin-mocha.toml"
@@ -10,7 +11,7 @@ import = [
 ]
 
 [font]
-normal = { family = "MesloLGSNerdFont", style = "Regular"}
+normal.family = "MesloLGS Nerd Font Mono"
 
 # Font configuration
 # font:
@@ -28,7 +29,7 @@ normal = { family = "MesloLGSNerdFont", style = "Regular"}
 #     style: Bold Italic
 
 # Size of the font
-# size: 14
+size = 20
 
 # Visual bell animation duration in milliseconds
 # bell_duration: 1000
